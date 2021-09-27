@@ -11,13 +11,21 @@ font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(8, 170, 116);
     height: 100vh;
     display: grid;
     place-items: center;
 }
 
-.button {
+button {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    padding: 20px 45px;
+    background-color: transparent;
+    border: 5px solid #ffffff;
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
 }
